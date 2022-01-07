@@ -11,13 +11,13 @@ function App() {
     <div className="App">
       <Navbar bg="light" expand="lg">
         <Container>
-          <Navbar.Brand href="#home">Kişisel Websitem</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">Kişisel Websitem</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link as={Link} to="">Anasayfa</Nav.Link>
-              <Nav.Link as={Link} to="hakkinda">Hakkında</Nav.Link>
-              <Nav.Link as={Link} to="iletisim">İletişim</Nav.Link>
+              <Nav.Link as={Link} to="/">Anasayfa</Nav.Link>
+              <Nav.Link as={Link} to="/hakkinda">Hakkında</Nav.Link>
+              <Nav.Link as={Link} to="/iletisim">İletişim</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -25,9 +25,9 @@ function App() {
 
       <Container className="pt-3">
         <Routes>
-          <Route path="" element={<Anasayfa />} />
-          <Route path="hakkinda" element={<Hakkinda />} />
-          <Route path="iletisim" element={<Iletisim />} />
+          <Route path="/" element={<Anasayfa />} />
+          <Route path="/hakkinda" element={<Hakkinda />} />
+          <Route path="/iletisim" element={<Iletisim />} />
         </Routes>
       </Container>
     </div>

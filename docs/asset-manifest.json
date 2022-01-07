@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-kisisel/static/css/main.e4889cbf.css",
-    "main.js": "/react-kisisel/static/js/main.1432545b.js",
+    "main.js": "/react-kisisel/static/js/main.a082603e.js",
     "static/js/787.a27f70b7.chunk.js": "/react-kisisel/static/js/787.a27f70b7.chunk.js",
     "index.html": "/react-kisisel/index.html",
     "main.e4889cbf.css.map": "/react-kisisel/static/css/main.e4889cbf.css.map",
-    "main.1432545b.js.map": "/react-kisisel/static/js/main.1432545b.js.map",
+    "main.a082603e.js.map": "/react-kisisel/static/js/main.a082603e.js.map",
     "787.a27f70b7.chunk.js.map": "/react-kisisel/static/js/787.a27f70b7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e4889cbf.css",
-    "static/js/main.1432545b.js"
+    "static/js/main.a082603e.js"
   ]
 }
